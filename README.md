@@ -28,6 +28,11 @@ Automatically control home climate based on humidity:
    - One for humidity monitoring
    - One for nightly fan mode
 
+
+## Real-time data
+You can view real-time data and historical trends (temperature, humidity, trigger activation) here:  
+**[http://iot-oleksii.s3-website-us-east-1.amazonaws.com](http://iot-oleksii.s3-website-us-east-1.amazonaws.com)**
+
 ## Resources
 
 - 📘 Article: [Automating Climate Control with Nest, AWS Lambda, and IoT Sensor Data](https://www.linkedin.com/pulse/automating-climate-control-nest-aws-lambda-iot-sensor-semeniuk-xp8ye)
