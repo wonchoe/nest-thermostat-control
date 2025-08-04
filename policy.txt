@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "SSMReadNestParameters",
+      "Effect": "Allow",
+      "Action": [
+        "ssm:GetParametersByPath",
+        "ssm:GetParameters",
+        "ssm:GetParameter"
+      ],
+      "Resource": [
+        "arn:aws:ssm:us-east-1:{accout-id}:parameter/nest/*"
+      ]
+    },
+    {
+      "Sid": "DynamoDBFullAccessToIoTReadings",
+      "Effect": "Allow",
+      "Action": [
+        "dynamodb:*"
+      ],
+      "Resource": "arn:aws:dynamodb:us-east-1:{accout-id}:table/iot_readings"
+    }
+  ]
+}
